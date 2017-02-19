@@ -10,6 +10,31 @@
 h1
 {
      font-family: "cavortingregular";
-     font-size: 500%;
+     font-size: 400%;
+     text-align: center;
+}
+
+.header
+{
+     padding-bottom: 100px;
+}
+
+.col-xs-6
+{
+     padding-bottom: 100%;
+}
+
+ul
+{
+     list-style-type: none;
+}
+
+.vertical-divider
+{
+     border-right: 1px solid black;
+}
+
+.right-col
+{
      text-align: center;
 }
