@@ -12,6 +12,9 @@
 		<!-- Theme used for syntax highlighting of code -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
 
+        <!-- reveal.js-verticator css file -->
+        <link rel="stylesheet" href="lib/css/verticator.css">
+
 		<!-- Printing and PDF exports -->
 		<script>
 			var link = document.createElement( 'link' );
@@ -26,28 +29,33 @@
 			<div class="slides">
 				<section>
 					<h1 class="specialFont">Antonios Kotronakis</h1>
+
+                    <section>
+                        <h1 class="specialFont">this is a vertical slide</h1>
+                    </section>
+
 				</section>
 
 				<!-- <section> -->
-				<!-- 	<h1><a -->
-				<!-- 			href="https://akotro.github.io/mrs-higgins-art-presentation/" -->
-				<!-- 			style="color: white;">Mrs -->
-				<!-- 		Higgins' Art</a></h1> -->
-				<!-- 	<iframe src="https://akotro.github.io/mrs-higgins-art-presentation/#/"></iframe> -->
+				<!--	<h1><a -->
+				<!--			href="https://akotro.github.io/mrs-higgins-art-presentation/" -->
+				<!--			style="color: white;">Mrs -->
+				<!--		Higgins' Art</a></h1> -->
+				<!--	<iframe src="https://akotro.github.io/mrs-higgins-art-presentation/#/"></iframe> -->
 				<!-- </section> -->
 
 				<!-- <section> -->
-				<!-- 	<h1><a -->
-				<!-- 			href="https://akotro.github.io/tok-mock-presentation/#/" -->
-				<!-- 			style="color: white;">ToK Mock</a></h1> -->
-				<!-- 	<iframe src="https://akotro.github.io/tok-mock-presentation/#/"></iframe> -->
+				<!--	<h1><a -->
+				<!--			href="https://akotro.github.io/tok-mock-presentation/#/" -->
+				<!--			style="color: white;">ToK Mock</a></h1> -->
+				<!--	<iframe src="https://akotro.github.io/tok-mock-presentation/#/"></iframe> -->
 				<!-- </section> -->
 
 				<!-- <section> -->
-				<!-- 	<h1><a -->
-				<!-- 			href="https://akotro.github.io/Vodafone-Site/#/" -->
-				<!-- 			style="color: white;">Vodafone: Safe Internet For Kids</a></h1> -->
-				<!-- 	<iframe src="https://akotro.github.io/Vodafone-Site/#/"></iframe> -->
+				<!--	<h1><a -->
+				<!--			href="https://akotro.github.io/Vodafone-Site/#/" -->
+				<!--			style="color: white;">Vodafone: Safe Internet For Kids</a></h1> -->
+				<!--	<iframe src="https://akotro.github.io/Vodafone-Site/#/"></iframe> -->
 				<!-- </section> -->
 			</div>
 		</div>
@@ -65,7 +73,8 @@
 					{ src: 'plugin/markdown/marked.js' },
 					{ src: 'plugin/markdown/markdown.js' },
 					{ src: 'plugin/notes/notes.js', async: true },
-					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); }
+                    { src: 'js/revealjs/plugin/verticator/verticator.js' } }
 				]
 			});
 		</script>
