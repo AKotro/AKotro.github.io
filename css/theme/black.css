@@ -22,10 +22,11 @@ body {
   background-color: #23221E; }
 
 .reveal {
-  font-family: "Source Sans Pro", Helvetica, sans-serif;
-  font-size: 42px;
+  /* font-family: "Source Sans Pro", Helvetica, sans-serif; */
+  font-family: 'Open Sans', sans-serif;
+  font-size: 38px;
   font-weight: normal;
-  color: #fff; }
+  color: #FFFDDE; }
 
 ::selection {
   color: #fff;
