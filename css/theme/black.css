@@ -74,7 +74,7 @@ body {
   margin: 0 0 20px 0;
   color: #FFFDDE;
   /*font-family: "Source Sans Pro", Helvetica, sans-serif;*/
-  font-family: Hack, 'Ubuntu Mono', monospace;
+  font-family: Hack, 'Ubuntu Mono', 'Courier New', Menlo, monospace;
   /* font-family: 'Open Sans', sans-serif; */
   font-weight: 600;
   line-height: 1.2;
