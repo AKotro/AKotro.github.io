@@ -25,6 +25,12 @@ section.has-light-background, section.has-light-background h1, section.has-light
 
 @font-face
 {
+	font-family: 'Ubuntu Mono', monospace;
+	src: url('C:\\Users\\akotr\\programming\\AKotro.github.io\\lib\\font\Ubuntu_Mono\\UbuntuMono-Regular.ttf');
+}
+
+@font-face
+{
 	font-family: 'Open Sans', sans-serif;
 	src: url('C:\\Users\\akotr\\programming\\AKotro.github.io\\lib\\font\\Open_Sans\\OpenSans-Regular.ttf');
 }
@@ -35,8 +41,8 @@ body {
 
 .reveal {
   /* font-family: "Source Sans Pro", Helvetica, sans-serif; */
+  font-family: Hack, 'Ubuntu Mono', monospace;
   /* font-family: 'Open Sans', sans-serif; */
-  font-family: Hack, monospace;
   font-size: 38px;
   font-weight: normal;
   color: #FFFDDE; }
@@ -68,8 +74,8 @@ body {
   margin: 0 0 20px 0;
   color: #FFFDDE;
   /*font-family: "Source Sans Pro", Helvetica, sans-serif;*/
+  font-family: Hack, 'Ubuntu Mono', monospace;
   /* font-family: 'Open Sans', sans-serif; */
-  font-family: Hack, monospace;
   font-weight: 600;
   line-height: 1.2;
   letter-spacing: normal;
