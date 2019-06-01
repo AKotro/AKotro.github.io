@@ -41,7 +41,7 @@ body {
 
 .reveal {
   /* font-family: "Source Sans Pro", Helvetica, sans-serif; */
-  font-family: Hack, 'Ubuntu Mono', monospace;
+  font-family: Hack, 'Ubuntu Mono', 'Courier New', Menlo, monospace;
   /* font-family: 'Open Sans', sans-serif; */
   font-size: 38px;
   font-weight: normal;
