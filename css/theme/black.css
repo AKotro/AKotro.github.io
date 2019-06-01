@@ -11,10 +11,22 @@ section.has-light-background, section.has-light-background h1, section.has-light
  * GLOBAL STYLES
  *********************************************/
 
+/* @font-face */
+/* { */
+/* 	font-family: cavorting; */
+/* 	src: url('C:\Users\Antonis\Desktop\Programming\Web\AKotro.github.io\cavorting-webfont.woff'); */
+/* } */
+
 @font-face
 {
-	font-family: cavorting;
-	src: url('C:\Users\Antonis\Desktop\Programming\Web\AKotro.github.io\cavorting-webfont.woff');
+	font-family: Hack, monospace;
+	src: url('C:\\Users\\akotr\\programming\\AKotro.github.io\\lib\\font\\hack\\Hack-Regular.ttf');
+}
+
+@font-face
+{
+	font-family: 'Open Sans', sans-serif;
+	src: url('C:\\Users\\akotr\\programming\\AKotro.github.io\\lib\\font\\Open_Sans\\OpenSans-Regular.ttf');
 }
 
 body {
@@ -23,7 +35,8 @@ body {
 
 .reveal {
   /* font-family: "Source Sans Pro", Helvetica, sans-serif; */
-  font-family: 'Open Sans', sans-serif;
+  /* font-family: 'Open Sans', sans-serif; */
+  font-family: Hack, monospace;
   font-size: 38px;
   font-weight: normal;
   color: #FFFDDE; }
@@ -55,7 +68,8 @@ body {
   margin: 0 0 20px 0;
   color: #FFFDDE;
   /*font-family: "Source Sans Pro", Helvetica, sans-serif;*/
-  font-family: 'Open Sans', sans-serif;
+  /* font-family: 'Open Sans', sans-serif; */
+  font-family: Hack, monospace;
   font-weight: 600;
   line-height: 1.2;
   letter-spacing: normal;
@@ -65,7 +79,7 @@ body {
 
 .reveal h1 {
   font-size: 2.5em;
-  font-family: cavorting
+  /* font-family: cavorting */
 }
 
 
@@ -241,7 +255,7 @@ body {
  * IMAGES
  *********************************************/
 .reveal section img {
-  margin: none;
+  margin: 15px 0px 0px 0px;
   /*15px 0px*/
 
   background: rgba(255, 255, 255, 0.12);
