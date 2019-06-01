@@ -40,9 +40,8 @@ body {
   background-color: #23221E; }
 
 .reveal {
-  /* font-family: "Source Sans Pro", Helvetica, sans-serif; */
-  font-family: Hack, 'Ubuntu Mono', 'Courier New', Menlo, monospace;
-  /* font-family: 'Open Sans', sans-serif; */
+  /* font-family: 'Open Sans', "Source Sans Pro", Helvetica, sans-serif; */
+  font-family: Hack, 'Ubuntu Mono', Menlo, 'Courier New', monospace;
   font-size: 38px;
   font-weight: normal;
   color: #FFFDDE; }
@@ -73,9 +72,8 @@ body {
 .reveal h6 {
   margin: 0 0 20px 0;
   color: #FFFDDE;
-  /*font-family: "Source Sans Pro", Helvetica, sans-serif;*/
-  font-family: Hack, 'Ubuntu Mono', 'Courier New', Menlo, monospace;
-  /* font-family: 'Open Sans', sans-serif; */
+  /*font-family: 'Open Sans, "Source Sans Pro", Helvetica, sans-serif;*/
+  font-family: Hack, 'Ubuntu Mono', Menlo, 'Courier New', monospace;
   font-weight: 600;
   line-height: 1.2;
   letter-spacing: normal;
